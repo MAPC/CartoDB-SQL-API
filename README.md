@@ -1,3 +1,20 @@
+# Carto SQL API for Heroku
+Deploy Carto's excellent SQL API to Heroku. Point it to any remote database. 
+
+## Status
+This is not functional yet! Please contribute.
+
+Main issues:
+ - Not clear how to handle 12 factor-ification with current setup
+ - Configuring exporting correctrly
+
+## Inspiration
+ - [Carto](https://github.com/CartoDB/CartoDB-SQL-API)
+ - [Code for NL](https://github.com/codefornl/carto-sql-api-docker)
+
+
+# Original Documentation
+
 SQL API for carto.com
 ========================
 
