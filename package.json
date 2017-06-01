@@ -56,7 +56,7 @@
     "test:unit:watch": "npm run test:unit -- -w"
   },
   "engines": {
-    "node": ">=0.8 <0.11",
+    "node": "7.9.0",
     "npm": ">=1.2.1"
   }
 }
