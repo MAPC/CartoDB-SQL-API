@@ -51,6 +51,7 @@
     "zipfile": "0.5.11"
   },
   "scripts": {
+    "postinstall": "./setup_environment.sh",
     "test": "make test-all",
     "test:unit": "mocha test/unit/**/*.js",
     "test:unit:watch": "npm run test:unit -- -w"
