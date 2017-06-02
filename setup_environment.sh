@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /cartodb-sql-api
-
 cp config/environments/docker.js config/environments/$CARTO_ENV.js
 
 sed -i "s/__DB_PORT__/$DB_PORT/g" config/environments/$CARTO_ENV.js
