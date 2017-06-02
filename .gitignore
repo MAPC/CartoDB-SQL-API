@@ -1,4 +1,5 @@
-config/environments/*.js
+config/environments/staging.js
+config/environments/test.js
 logs/*.log
 pids/*.pid
 *.sock
